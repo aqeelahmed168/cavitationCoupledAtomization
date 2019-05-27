@@ -1,0 +1,12 @@
+Selected results from LES of cavitating jet from a step nozzle. Uses a multiphase formulation for liquid, vapor and air. Liquid and gas (vapor and air)  are resolved using volume of fluid type formulation with algebric (numerical) interface sharpening.
+
+Simulation peformed with OpenFOAM v5.
+
+Videos:
+   "isoAlpha.mp4" iso-contour 0.5 of liquid volume fraction. Inside the injector the interface is between liquid (water) and vapor (water), while outside the injector, the interface is between liquid and air.
+   "Uvol.mp4" volume render of velocity field inside and outside the injector
+
+Images:
+   Volume fractions at mid plane as well as pressure and velocity field
+   Lamda2 colored with streamwise velocity
+   Nozzle wall pressure
